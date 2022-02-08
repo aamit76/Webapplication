@@ -14,6 +14,8 @@
             <asp:TextBox ID="TextBox3" runat="server" placeholder="Enter Price"></asp:TextBox> <br> <br>
             <asp:Button ID="Button1" runat="server" Text="INSERT" OnClick="Button1_Click" />
 
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Table]"></asp:SqlDataSource>
+
         </div>
     </form>
 </body>

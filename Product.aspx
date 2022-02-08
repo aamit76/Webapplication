@@ -4,6 +4,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContentPlaceHolder" runat="server">
     <div>
 
-        <a href="#"> <p> click here to insert </a> </p>
+        <p> Insertion </p>
+
+        <asp:Button ID="Button1" runat="server" Text="Click here to insert" OnClick="Button1_Click" />
+
+        
     </div>
 </asp:Content>
